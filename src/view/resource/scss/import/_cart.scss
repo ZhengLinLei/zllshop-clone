@@ -1,0 +1,26 @@
+body{
+    section#cart{
+        main{
+            #item{
+                height: 80px;
+                img{
+                    border-radius: 2px;
+                }
+            }
+        }
+        section#hot{
+            margin-bottom: 80% !important;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            padding: 15px 1em 25% 1em;
+            background-color: $body-color;
+
+            a{
+                background-color: $activeIcon-color;
+            }
+        }
+    }
+}
