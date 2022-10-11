@@ -1,0 +1,36 @@
+body{
+    section#rate{
+        #rateSection{
+            .star-zone.anim{
+                animation: .5s rateStarUp ease forwards;
+            }
+        }
+        .ratesBox{
+            transform: translateX(-100%);
+            animation: openRatesBox .7s ease forwards;
+        }
+        img{
+            position: absolute;
+            border-radius: 100%;
+        }
+        #imgCollapseBuy{
+            height: 60px;
+            position: relative;
+
+            &.pair img{
+                transform: translateX(-80%);
+            }
+            img{
+                height: 60px;
+                transform: translateX(-50%);
+            }
+        }
+        #imgBuyHistory{
+            height: 40px;
+            position: relative;
+            img{
+                height: 40px;
+            }
+        }
+    }
+}

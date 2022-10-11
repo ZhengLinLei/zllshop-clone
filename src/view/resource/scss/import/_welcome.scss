@@ -1,0 +1,28 @@
+body{
+    > section#welcome{
+        $time: 0.4s;
+
+        z-index: 9999;
+        animation: welcomeCloseAnimation 0.5s linear forwards calc(6 * #{$time});
+        & > .div{
+            
+            padding: 5px;
+            overflow: hidden;
+
+            h1{
+                & > span{
+                    display: inline-block
+                }
+                @for $i from 1 to 4 {
+                    & > span:nth-of-type(#{$i}){
+                        animation: welcomeLogoLetter 0.5s ease calc(#{$i} * #{$time});
+                    }
+                }
+            }
+            h3{
+                transform: translateX(150%);
+                animation: welcomeLogoCar 0.5s ease-out forwards calc(5 * #{$time});
+            }
+        }
+    }
+}

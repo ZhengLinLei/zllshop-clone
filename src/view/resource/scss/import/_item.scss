@@ -1,0 +1,89 @@
+div.tooltip.bs-tooltip-top[role="tooltip"]{
+    font-size: 16px;
+    padding: 5px;
+    top: -10px !important;
+    z-index: 99;
+}
+body{
+
+    section#item{
+        div.carousel-item{
+            background-color: $light-dark;
+            position: relative;
+
+            div.image-option{
+                position: absolute;
+                bottom: 1rem;
+                right: 10px;
+                z-index: 99;
+            }
+        }
+        
+        ol.carousel-indicators{
+            margin-left: 10px;
+            margin-right: 35%;
+            li{
+                width: 15px;
+                &.active{
+                    background-color: $activeIcon-color;
+                }
+            }
+        }
+
+        section.item_info{
+            margin-bottom: 30% !important;
+            div.item_description{
+                font-weight: 200;
+            }
+            div.complement{
+                .tag{
+                    color: $icon-color;
+                    font-size: 14px;
+                }
+                .shipping{
+                    color: $third-color;
+                }
+            }
+            div.remenber{
+                > div{
+                    border-radius: 5px;
+                    box-shadow: 1px 1px 2px rgba($color: $black-color, $alpha: 0.03),
+                                0 1px 8px rgba($color: $black-color, $alpha: 0.01);
+                }                
+            }
+            div.share_buy{
+                .share{
+                    &, a{
+                        color: $icon-color !important;
+                    }
+                }
+                .buy{
+                    button{
+                        background-color: $activeIcon-color;
+                    }
+                }
+            }
+            div.number_item{
+                div.icon{
+                    color: $icon-color;
+                    cursor: pointer;
+                }
+                div{
+                    input{
+                        background-color: $light-dark;
+                        border-radius: 3px;
+                        height: 50px;
+                        color: $icon-color;
+                        transition: .5s;
+                        border: none;
+
+                        &:active, &:focus{
+                            box-shadow: 1px 1px 4px rgba($color: $black-color, $alpha: 0.1),
+                                0 1px 8px rgba($color: $black-color, $alpha: 0.08);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

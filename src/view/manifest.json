@@ -1,0 +1,93 @@
+{
+    "name": "ZLL shop",
+    "short_name": "ZLL小卖部",
+    "default_locale": "zh-ch",
+    "description": "代购找郑林磊APP网页",
+    "start_url": "../",
+    "background_color": "#756c83",
+    "theme_color": "#756c83",
+    "display": "fullscreen",
+    "scope": "../",
+    "shortcuts": [
+        {
+            "name": "购买zll店",
+            "short_name": "购买",
+            "description": "看物品信息",
+            "url": "../category",
+            "icons": [
+                {
+                    "src": "./resource/img/web/favicon/androidIcon96x96.png",
+                    "sizes": "96x96",
+                    "type": "image/png",
+                    "density": "2.0"
+                }
+            ]
+        },
+        {
+            "name": "zll店钱包",
+            "short_name": "钱包",
+            "description": "看账号钱包信息",
+            "url": "../coupon",
+            "icons": [
+                {
+                    "src": "./resource/img/web/favicon/androidIcon96x96.png",
+                    "sizes": "96x96",
+                    "type": "image/png",
+                    "density": "2.0"
+                }
+            ]
+        },
+        {
+            "name": "zll店记录",
+            "short_name": "购买记录",
+            "description": "看物流信息",
+            "url": "../setting/history",
+            "icons": [
+                {
+                    "src": "./resource/img/web/favicon/androidIcon96x96.png",
+                    "sizes": "96x96",
+                    "type": "image/png",
+                    "density": "2.0"
+                }
+            ]
+        }
+    ],
+    "icons": [
+        {
+            "src": "./resource/img/web/favicon/androidIcon36x36.png",
+            "sizes": "36x36",
+            "type": "image/png",
+            "density": "0.75"
+        },
+        {
+            "src": "./resource/img/web/favicon/androidIcon48x48.png",
+            "sizes": "48x48",
+            "type": "image/png",
+            "density": "1.0"
+        },
+        {
+            "src": "./resource/img/web/favicon/androidIcon72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "density": "1.5"
+        },
+        {
+            "src": "./resource/img/web/favicon/androidIcon96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "./resource/img/web/favicon/androidIcon144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "density": "3.0"
+        },
+        {
+            "src": "./resource/img/web/favicon/androidIcon192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "density": "4.0"
+        }
+    ]
+}
